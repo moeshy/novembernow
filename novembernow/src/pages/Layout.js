@@ -2,6 +2,7 @@ import NovvyNow from "../images/NovvyNow.png";
 import NN from "../images/NN.png";
 import "../components/app/App.css";
 import { Link } from "react-router-dom";
+import Footer from "../components/footer";
 
 
 const Layout = () => {
@@ -19,6 +20,7 @@ const Layout = () => {
               <div className="nnDiv">
                 <img src={NN} className="NN" alt="NN" />
               </div>
+              <Footer/>
             </body>
           );
   };
