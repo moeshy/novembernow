@@ -3,8 +3,7 @@ import NN from "../images/NN.png";
 import "../components/app/App.css";
 import { Link } from "react-router-dom";
 import Footer from "../components/footer";
-
-
+import BoxSx from "../components/imagebox";
 const Layout = () => {
         return (
             <body className="novBody">
@@ -12,14 +11,13 @@ const Layout = () => {
                 <img className="novSplash" src={NovvyNow} alt="Nov" />
               </div>
               <div className="navButtons">
-              <Link to="/profile" style={{ textDecoration: "none", color: "black" }}>HOME</Link>
-              <Link to="/profile" style={{ textDecoration: "none", color: "black" }}>ABOUT</Link>
-              <Link to="/profile" style={{ textDecoration: "none", color: "black" }}>MUSIC</Link>
-              <Link to="/profile" style={{ textDecoration: "none", color: "black" }}>CONTACT</Link>
+              <Link to="/profile" style={{ textDecoration: "none", color: "black" }}><BoxSx/></Link>
+
               </div>
-              <div className="nnDiv">
+              
+              {/* <div className="nnDiv">
                 <img src={NN} className="NN" alt="NN" />
-              </div>
+              </div> */}
               <Footer/>
             </body>
           );

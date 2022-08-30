@@ -16,7 +16,7 @@
   opacity: 0.9;
 }
 
-.navButtons{
+.boxLinks{
   display: flex;
   flex-direction: row;
   padding-bottom: 2%;
@@ -40,6 +40,11 @@ body,
   background-color: lightgray;
   background-size: contain;
   height: 100%;
+  background-attachment: fixed;
+  background-image: url("https://i.imgur.com/3NTsjCv.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
 }
 .novSplash{
   padding-top: 2%;
@@ -48,9 +53,11 @@ body,
 }
 
 .NN{
+
   padding-top:4%;
   width: 50%;
   height: 60%;
   opacity: 0.2;
-  position: sticky;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
