@@ -6,7 +6,7 @@
 }
 
 .footer {
-  position: fixed;
+  position: sticky;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -14,6 +14,13 @@
   color: white;
   text-align: center;
   opacity: 0.9;
+}
+
+.textMainPage{
+  padding-left: 128px;
+  padding-right: 128px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .boxLinks{
