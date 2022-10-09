@@ -28,7 +28,7 @@ export default function BoxSx() {
     />
     <Box
       sx={{
-        width: 280,
+        width: 270,
         height: 280,
         backgroundImage: 'url(https://i.imgur.com/xeDIhNy.png)',
         '&:hover': {
